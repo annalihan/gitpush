@@ -1,0 +1,22 @@
+{
+    "git" : "https://gitlab.weibo.cn/lihan2/test.git",
+    "push" : [
+        {
+            "hostname" : [ "js.t.sinajs.cn", "js1.t.sinajs.cn"],
+            "onlinePath" : "t6/apps/fans_service_mobile/",
+            "filelist" : [
+                "js/app.js",
+                "js/app",
+                "js/lib",
+                "js/common/chart/lib"
+            ]
+        },
+        {
+            "hostname" : ["img.t.sinajs.cn", "img1.t.sinajs.cn"],
+            "onlinePath" : "t4/appstyle/xxx/",
+            "filelist" : [
+                "css/payRewardCustom"
+            ]
+        }
+    ]
+}
